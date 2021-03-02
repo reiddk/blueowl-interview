@@ -1,0 +1,51 @@
+.deleteCard {
+  position: absolute;
+  right: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.deleteCard:hover {
+  opacity: 0.5;
+}
+
+.card {
+  width: 300px;
+  height: 0px;
+  opacity: 1;
+  overflow-y: hidden;
+  position: relative;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+.cardInterior {
+  border: solid 1px black;
+  margin: 10px;
+  width: 280px;
+  height: 230px;
+}
+.adding {
+  height: 250px;
+  transition: height linear 0.25s;
+}
+.added {
+  height: 250px;
+}
+.deleting {
+  height: 0;
+  transition: height linear 0.25s;
+}
+.moving {
+  position: absolute;
+}
+.hideCard {
+  display: none;
+}
+.cardNumberText {
+  font-size: 130px;
+  text-align: center;
+}

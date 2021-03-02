@@ -1,0 +1,21 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.cardControl {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  margin-left: 10px;
+}
+.buttonContainer {
+  width: 100px;
+}
+.cardsContainer {
+  height: 800px;
+  overflow-y: scroll;
+  position: relative;
+}
+.footerWrapper {
+}
